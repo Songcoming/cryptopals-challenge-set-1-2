@@ -43,6 +43,7 @@ public class CryptoChalSet1_2{
 
 		return resultStr;
 	}
+	
 
 	public static void main(String[] args){
 		System.out.println(charToHex(charXorChar(hexToChar(textHex1),hexToChar(textHex2))));
